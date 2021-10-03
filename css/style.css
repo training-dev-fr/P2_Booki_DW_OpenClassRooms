@@ -387,3 +387,7 @@ footer .column ul li a {
     text-decoration: none;
     line-height: 35px;
 }
+
+.informations img {
+    height: 17px;
+}
