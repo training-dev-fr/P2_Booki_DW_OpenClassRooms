@@ -1,0 +1,72 @@
+body {
+    padding: 0px 20px;
+}
+
+header {
+    flex-direction: column;
+}
+
+header #logo {
+    margin: auto;
+}
+
+header nav ul {
+    margin: 0px -20px;
+    padding: 0;
+}
+
+header nav ul li {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    border-top: none;
+    border-bottom: 2px solid var(--grey);
+}
+
+.search-box button {
+    border-radius: 15px;
+}
+
+.search-box button span {
+    display: none;
+}
+
+.search-box button .fa-search {
+    display: block;
+}
+
+#filter {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#hebergement .marseille {
+    order: 2;
+}
+
+#hebergement .populaire {
+    order: 1;
+}
+
+#hebergement .marseille .hebergement-list {
+    flex-direction: column;
+}
+
+#hebergement .marseille .hebergement-list a {
+    width: 100%;
+}
+
+#activite .activite-list .column {
+    width: 100%;
+}
+
+.activite-list .column article,
+.activite-list .column.double article {
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+footer {
+    flex-direction: column;
+}

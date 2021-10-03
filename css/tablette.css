@@ -1,0 +1,30 @@
+#filter {
+    flex-wrap: wrap;
+}
+
+#hebergement {
+    flex-direction: column;
+}
+
+#hebergement .marseille,
+#hebergement .populaire {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#activite .activite-list {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#activite .activite-list .column {
+    width: 48%;
+}
+
+footer {
+    justify-content: space-between;
+}
+
+footer .column {
+    width: auto;
+}
